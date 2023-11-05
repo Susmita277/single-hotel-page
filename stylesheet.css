@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.logo{
+    margin-left: 5%;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins";
+    margin-right: 25%;
+    align-items: center;
+}
+.links ul{
+    display: flex;
+    transition-property:text-decoration;
+}
+
+.links ul li{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+
+.links ul li a{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+
+}
+
+.btn{
+    padding: 10px;
+}
+.btn button{
+    width: 100px;
+    color: white;
+    height: 40px;
+    font-size: inherit;
+    outline: none;
+    border: none;
+    background-color:#D2042D;
+}
+.imagecontainer{
+    position: relative;
+    display: flex;
+    white-space: nowrap;
+}
+.imagecontainer #image1 img{
+   height: 600px;
+   width: 1350px;
+}
+#image1 .scroller{
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translate(0, -50%);
+    width: 60px;
+    height: 60px;
+    background-image: url(./images/down-arrow\ \(2\).png);
+    background-size: cover;
+  
+}
+
+
